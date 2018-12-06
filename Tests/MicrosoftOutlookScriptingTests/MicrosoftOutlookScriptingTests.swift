@@ -1,12 +1,11 @@
 import XCTest
+import ScriptingUtilities
 @testable import MicrosoftOutlookScripting
 
 final class MicrosoftOutlookScriptingTests: XCTestCase {
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(MicrosoftOutlookScripting().text, "Hello, World!")
+        let outlook = application(name: "Microsoft Outlook") as! MicrosoftOutlookApplication
+        outlook.activate() // Should open Outlook.
     }
 
     static var allTests = [
