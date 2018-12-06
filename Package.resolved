@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ScriptingUtilities",
+        "repositoryURL": "https://github.com/AthanasiusOfAlex/ScriptingUtilities.git",
+        "state": {
+          "branch": "master",
+          "revision": "8aaf67eeec5126936fc25ff8c50c6152fea755a2",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
